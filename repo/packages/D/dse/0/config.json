@@ -72,7 +72,7 @@
           "storage": {
             "type": "string",
             "description": "State storage path. See --storage option",
-            "default": "zk:/dse-mesos"
+            "default": "zk:master.mesos:2181/dse-mesos"
           },
           "jre": {
             "type": "string",
